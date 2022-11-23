@@ -1,0 +1,28 @@
+.details {
+  display: flex;
+
+  &__image {
+    object-fit: contain;
+    width: $size18;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    padding: $size9;
+  }
+
+  &__info__title {
+    border-bottom: solid 1px $dark-grey;
+    font-size: $size10;
+    padding-bottom: $size5;
+    text-align: center;
+  }
+
+  &__info__description {
+    font-size: $size6;
+    margin-top: $size11;
+    text-align: justify;
+    
+  }
+}

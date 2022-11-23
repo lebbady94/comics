@@ -1,0 +1,15 @@
+// CONSTANTS
+
+@import "./colors.scss";
+@import "./sizing.scss";
+
+// COMPONENTS
+
+@import "../App.scss";
+@import "../layout/commons/header/header.scss";
+@import "../layout/commons/issue-card/issue-card.scss";
+
+// VIEWS 
+
+@import "../layout/views/home/home.scss";
+@import "../layout/views/detail/detail.scss";

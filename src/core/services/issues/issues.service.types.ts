@@ -1,0 +1,29 @@
+export interface IIssueServiceResponse {
+  preview: number;
+  has_pdf: number;
+  code: string;
+  description: string;
+  created_at: string;
+  binding: number;
+  type: number;
+  legacy_identifier: string;
+  cover_currency: string;
+  no_of_pages: number;
+  publication_id: number;
+  internal_name: string;
+  cover_date: string;
+  id: number;
+  cover_image: string;
+  modified_at: string;
+  slug: string;
+  watermark: number;
+  allow_printing: number;
+  fulfilment_code: string;
+  classification: number;
+  cover_price: number;
+  name: string;
+  publish_date: string;
+  legacy_issue_id: number;
+  has_xml: number;
+  status: number;
+}

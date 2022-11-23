@@ -1,0 +1,39 @@
+.header {
+  background: $dark-grey;
+  display: flex;
+  flex-direction: column;
+
+  &__title {
+    border-bottom: solid 1px $light-grey;
+    height: $size13;
+    text-align: center;
+    width: 100%;
+  }
+
+  &__title__text {
+    color: $off-white;
+    font-size: $size10;
+  }
+
+  &__navigation {
+    align-items: center;
+    display: flex;
+    height: $size11;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+
+  &__navigation__link {
+    text-decoration: none;
+  }
+
+  &__navigation__link__entry {
+    color: $off-white;
+    cursor: pointer;
+    font-size: $size7;
+
+    &:hover {
+      color: $light-grey;
+    }
+  }
+}

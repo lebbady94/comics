@@ -1,0 +1,26 @@
+.issue-card {
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  display: flex;
+  flex-direction: column;
+  padding: $size5;
+  text-align: center;
+  width: $size15;
+  height: $size18;
+
+  &__header {
+    display: flex;
+    flex-direction: column;
+    height: $size17;
+    justify-content: center;
+  }
+
+  &__header__image {
+    width: 100%;
+  }
+
+  &__title {
+    color: $dark-grey;
+    font-size: $size6;
+  }
+}
